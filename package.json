@@ -1,0 +1,19 @@
+{
+  "name": "personal-metrics",
+  "version": "1.0.0",
+  "description": "Tracker of daily personal metrics",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduardoamdev/personal-metrics.git"
+  },
+  "author": "Eduardo Alvarez Martinez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eduardoamdev/personal-metrics/issues"
+  },
+  "homepage": "https://github.com/eduardoamdev/personal-metrics#readme"
+}
