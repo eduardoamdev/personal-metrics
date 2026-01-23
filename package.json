@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/eduardoamdev/personal-metrics/issues"
   },
-  "homepage": "https://github.com/eduardoamdev/personal-metrics#readme"
+  "homepage": "https://github.com/eduardoamdev/personal-metrics#readme",
+  "devDependencies": {
+    "electron": "^40.0.0"
+  }
 }
