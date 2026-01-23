@@ -75,13 +75,6 @@ Desktop.ini
 coverage/
 .nyc_output/
 
-# =========================
-# Package Managers
-# =========================
-package-lock.json
-yarn.lock
-pnpm-lock.yaml
-
 # (Remove above if you want to commit lock files!)
 
 # =========================
