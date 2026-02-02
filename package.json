@@ -19,5 +19,8 @@
   "homepage": "https://github.com/eduardoamdev/personal-metrics#readme",
   "devDependencies": {
     "electron": "^40.0.0"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.6.2"
   }
 }
