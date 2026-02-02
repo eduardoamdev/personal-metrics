@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/eduardoamdev/personal-metrics#readme",
   "devDependencies": {
+    "@electron/rebuild": "^4.0.3",
     "electron": "^40.0.0"
   },
   "dependencies": {
