@@ -14,5 +14,115 @@
   </head>
   <body>
     <h1>Personal Metrics</h1>
+
+    <form id="dailyLogForm">
+      <h2>Daily Log Entry</h2>
+
+      <label for="date">Date:</label>
+      <input type="date" id="date" name="date" required />
+
+      <h3>Activity Metrics</h3>
+
+      <label for="sunlight_minutes">Sunlight (minutes):</label>
+      <input
+        type="number"
+        id="sunlight_minutes"
+        name="sunlight_minutes"
+        min="0"
+      />
+
+      <label for="outside_minutes">Outside (minutes):</label>
+      <input
+        type="number"
+        id="outside_minutes"
+        name="outside_minutes"
+        min="0"
+      />
+
+      <label for="temperature_celsius">Temperature (°C):</label>
+      <input
+        type="number"
+        id="temperature_celsius"
+        name="temperature_celsius"
+        step="0.1"
+      />
+
+      <label for="stressful_situations">Stressful situations:</label>
+      <select id="stressful_situations" name="stressful_situations">
+        <option value="">Select...</option>
+        <option value="0">No</option>
+        <option value="1">Yes</option>
+      </select>
+
+      <label for="sleep_hours">Sleep (hours):</label>
+      <input
+        type="number"
+        id="sleep_hours"
+        name="sleep_hours"
+        step="0.1"
+        min="0"
+      />
+
+      <h3>Food Intake</h3>
+
+      <label for="cucumber_grams">Cucumber (grams):</label>
+      <input type="number" id="cucumber_grams" name="cucumber_grams" min="0" />
+
+      <label for="eggs_count">Eggs (count):</label>
+      <input type="number" id="eggs_count" name="eggs_count" min="0" />
+
+      <label for="tomato_grams">Tomato (grams):</label>
+      <input type="number" id="tomato_grams" name="tomato_grams" min="0" />
+
+      <label for="nuts_grams">Nuts (grams):</label>
+      <input type="number" id="nuts_grams" name="nuts_grams" min="0" />
+
+      <label for="beef_grams">Beef (grams):</label>
+      <input type="number" id="beef_grams" name="beef_grams" min="0" />
+
+      <label for="chicken_grams">Chicken (grams):</label>
+      <input type="number" id="chicken_grams" name="chicken_grams" min="0" />
+
+      <label for="fish_grams">Fish (grams):</label>
+      <input type="number" id="fish_grams" name="fish_grams" min="0" />
+
+      <label for="olive_oil_grams">Olive oil (grams):</label>
+      <input
+        type="number"
+        id="olive_oil_grams"
+        name="olive_oil_grams"
+        min="0"
+      />
+
+      <label for="water_liters">Water (liters):</label>
+      <input
+        type="number"
+        id="water_liters"
+        name="water_liters"
+        step="0.1"
+        min="0"
+      />
+
+      <label for="dairy_grams">Dairy (grams):</label>
+      <input type="number" id="dairy_grams" name="dairy_grams" min="0" />
+
+      <label for="viscera_grams">Viscera (grams):</label>
+      <input type="number" id="viscera_grams" name="viscera_grams" min="0" />
+
+      <label for="honey_grams">Honey (grams):</label>
+      <input type="number" id="honey_grams" name="honey_grams" min="0" />
+
+      <label for="fruits_count">Fruits (count):</label>
+      <input type="number" id="fruits_count" name="fruits_count" min="0" />
+
+      <h3>Notes</h3>
+
+      <label for="notes">Additional notes:</label>
+      <textarea id="notes" name="notes" rows="4"></textarea>
+
+      <button type="submit">Save Entry</button>
+    </form>
+
+    <script src="renderer.js"></script>
   </body>
 </html>
