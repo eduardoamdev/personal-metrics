@@ -2,7 +2,7 @@
   "name": "personal-metrics",
   "version": "1.0.0",
   "description": "Tracker of daily personal metrics",
-  "main": "main.js",
+  "main": "src/main.js",
   "scripts": {
     "start": "electron .",
     "rebuild": "npx electron-rebuild",
